@@ -4,6 +4,11 @@ application: api-explorer {
   label: "API Explorer"
   file: "bundle.js"
   # url: "https://localhost:8080/dist/bundle.js"
+  mount_points: {
+    dashboard_vis: no
+    dashboard_tile: yes
+    standalone: yes
+  }
   entitlements: {
     local_storage: yes
     navigation: no
